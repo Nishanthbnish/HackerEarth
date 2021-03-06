@@ -1,0 +1,5 @@
+1.open input.txt and Enter the input as provided in question.
+2.create output.txt file .
+3.compile and Run the file named Main.java.
+4.open output.txt to find the result. 
+5.open goodies video for further reference.
