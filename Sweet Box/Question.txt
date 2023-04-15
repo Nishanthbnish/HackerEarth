@@ -1,0 +1,46 @@
+It is the festival of Diwali and you are celebrating Diwali with your family. Your mother asked you to help her with the sweets. She gave a box of sweets of N slots. She asked you to add K more sweets in the box but sweets cannot be planted in adjacent slots which means no two continuous slots can have the sweets.
+
+You are given an integer array sweets containing 0's and I's, where 0 means empty that the slot is empty and 1 means that the slot is already filled with sweets, return 1 if K more sweets can be placed in the sweets box else return 0. You can only use the empty slots to place the additional sweets.
+
+Task
+
+Determine if K more sweets can be added to the box without placing any two sweets adjacent or not. If possible return 1 else 0.
+
+Assumptions
+
+N=7
+
+sweets = [1, 0, 0, 0, 1, 0, 0]
+
+•K=2
+
+Approach
+
+You can place sweets at index 2 and 6 (indexing starting from
+
+Then array sweets will be [1, 0, 1, 0, 1, 0, 1].
+
+Function description
+
+Complete the Solve() function provided in the editor below that takes the following arguments and returns 1 if K more sweets can be added to the box without placing any two sweets adjacently else return 0:
+
+•N: Represents the size of the stream of data
+
+⚫ Sweets [ Represents the array containing 0's and 1's, where 0 means empty that the slot is empty
+
+and 1 means that the slot is already filled with sweets K Represents the number of additional sweets to be added to the box
+
+Input format
+
+⚫ The first line contains an integer N denoting the total number of slots in the sweetbox.
+
+⚫The second line contains a space-separated integer
+
+array of size N containing 0's and 1's, where means empty that the slot is empty and means that the slot is already filled with sweet.
+
+⚫ The third line contains an integer K denoting the number of additional sweets to be added to the box.
+
+Output Format
+
+Print 1 if K more sweets can be added to the box without placing any two sweets adjacently else print 0.
+
